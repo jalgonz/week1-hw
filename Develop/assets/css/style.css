@@ -68,14 +68,12 @@ p {
     display: block;
     float: left;
     margin-right: 25px;
-    width: 40%;
 }
 
 .float-right {
     display: block;
     float: right;
     margin-left: 25px;
-    width: 40%;
 }
 
 .content {
@@ -101,13 +99,17 @@ p {
     color: #ffffff;
 }
 
+/* Consolidated redundant selectors under benefit-style h3 */
+.benefit-style h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-
-/* Consolidated benefit-lead img, benefit-brand img and benefit-cost img under image-style */
-.image-style {
+/* Consolidated benefit-lead img, benefit-brand img and benefit-cost img under benefit-style img */
+.benefit-style img {
     display: block;
-    margin: auto;
-    width: 45%;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* Consolidated search-engine-optimization, online-repuation-management, social-media-marketing under block-style */
@@ -120,15 +122,8 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/* Consolidated redundant img selectors under block-style img*/
+.block-style img {
     max-height: 200px;
 }
 
