@@ -91,12 +91,14 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated benefit-lead, benefit-cost, and benefit brand classes under benefit style */
 .benefit-style {
     margin: 10px;
     color: #ffffff;
 }
 
-.image-size {
+/* Consolidated benefit-lead img, benefit-brand img and benefit-cost img under image-style */
+.image-style {
     display: block;
     margin: auto;
     width: 45%;
